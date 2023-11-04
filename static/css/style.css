@@ -1,0 +1,63 @@
+.header_class { 
+    background-color: rgba(252, 7, 7, 0.205);
+     height: 100px;
+     /* width: 1024px; */
+}
+.container_menu {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    position: relative;
+    left: 1100px;
+    bottom: 120px;
+    list-style-type: none;
+}
+.title {
+    color: rgb(8, 8, 8);
+    font-size: 70px;
+    display: inline-block;
+     /* margin-left: 60px; */
+    margin-bottom: 15px; 
+    position: relative;
+    left: 375px;
+}
+
+.logo_class {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    
+}
+.container_menu a{
+   text-decoration: none; 
+   color: rgb(12, 12, 12);
+   background-color: rgba(221, 217, 217, 0.555);
+   list-style-type: none;
+   width: 35px;
+   height: 10px;
+   border-radius: 25%;
+   margin-right: 30px;
+   font-size: 25px;
+   
+}
+
+
+.container_menu a:hover {
+    color: rgb(8, 8, 8);
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 15px;
+}
+
+
+.img_watch {
+    display: inline-block;
+    background:url(../img/watch.jpg) no-repeat;
+    height: 600px ;
+    width: 2200px;
+    background-size: 85.18% 100%;
+}
+body {
+    /* overflow: hidden; */
+    width: 100%;
+}
