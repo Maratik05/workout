@@ -4,14 +4,12 @@ Products
 {% endblock %}
 
 {% block body %}
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptatem recusandae amet harum consequatur neque minima sequi itaque corrupti consectetur, laudantium repudiandae expedita cumque exercitationem illum eum officia dolor autem.
-    Quisquam, temporibus sint? Neque tempore eaque magnam recusandae libero deserunt aperiam officia laborum nihil rem dignissimos, numquam optio ipsam illo, nulla sint veniam temporibus laboriosam? Debitis consectetur animi suscipit dolore!
-    Repudiandae esse odio, itaque quos totam laboriosam numquam, aliquid et molestiae quas eos eius nisi quisquam quod veritatis libero distinctio. Reiciendis esse reprehenderit nulla quia saepe odio ipsam quos. Enim?
-    Reprehenderit, pariatur. Voluptate, fugiat eum nulla tenetur eligendi, repellendus, aliquam voluptas sunt vero aperiam velit consequuntur reiciendis unde. Illo sit ut quis voluptas inventore sunt minus quidem. Aliquid, laudantium assumenda?
-    Ipsa totam porro quas assumenda iure et mollitia tempore, modi voluptatem minus cumque obcaecati sapiente, cupiditate aliquam fugit? Nam et perspiciatis, illo voluptatem natus ipsa! Amet neque tenetur ea esse?
-    Aspernatur provident minus pariatur natus. Officia, quam recusandae commodi autem molestias cumque eveniet neque, exercitationem rem placeat dolorum quae in! Rerum recusandae minima nam vero, aspernatur consectetur officia reiciendis aperiam.
-    Quae ipsa aliquam saepe fugit, nesciunt assumenda nihil unde, ducimus corrupti accusantium dignissimos odio, optio tempore excepturi enim cum earum iure beatae ipsum. Porro fugit quisquam accusantium impedit alias reprehenderit.
-    Reiciendis, qui id nulla rem tempore dignissimos esse quis. Architecto doloremque eligendi quae omnis. Enim magni obcaecati provident tempore. Iusto perspiciatis odit illo et dolorem error cum eos velit obcaecati.
-    Quas quos temporibus, non voluptas at laudantium nostrum qui ratione alias cumque vel illum eligendi ipsa officiis mollitia magnam laborum omnis! Eveniet, dicta officiis. Temporibus repellendus quam voluptate provident quaerat.
-    Ut ipsa harum necessitatibus non dolorem. Molestias fuga, recusandae sequi illo ratione, amet, eligendi laboriosam nobis maxime consectetur facere. Ratione, obcaecati repellat. Reprehenderit qui quaerat molestiae corporis molestias rerum odio!
+    <h1>Form for recording products</h1>
+    <form action="/products" method="POST">
+        <input type="text" name="brand" required placeholder="name brand"><br>
+        <input type="text" name="price" required placeholder="product's price"><br>
+        <input type="text" name="water_resistance" required ><br>
+        <input type="text" name="quality" placeholder="quality"><br>
+        <input type="submit" value="Sent">
+    </form> 
 {% endblock %}
